@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   keywords: ["DevOps AI", "DevOps AI", "What is Docker", "What is Jenkins", "What is Kubernetes", "Learn DevOps", "DevOps Interview Questions"],
   authors: [{ name: "Aathi" }],
   robots: "index, follow",
+    verification: {
+    google: "klNu-Q0hdVZzrwcduQFlDKXpvRtm6pITkeYduWruHiM",
+  },
   openGraph: {
     title: "DevOps AI - Learn DevOps with AI",
     description: "Ask Docker, Jenkins, Kubernetes - Get instant AI answers. Free DevOps Learning App.",
