@@ -11,7 +11,7 @@ export default function Home() {
     setLoading(true);
     setAnswer("");
     try {
-      const res = await fetch(`http://localhost:8000/ask?q=${encodeURIComponent(question)}`);
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/ask?q=${encodeURIComponent(question)}`);
       const data = await res.json();
       setAnswer(data.answer);
     } catch (e) {
